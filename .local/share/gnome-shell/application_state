@@ -2,8 +2,8 @@
 <application-state>
   <context id="">
     <application id="org.gnome.Nautilus.desktop" score="24.5" last-seen="1721719297"/>
-    <application id="firefox.desktop" score="20501.96875" last-seen="1721803636"/>
-    <application id="org.gnome.Console.desktop" score="3813.09375" last-seen="1721803683"/>
+    <application id="firefox.desktop" score="20537.96875" last-seen="1721804190"/>
+    <application id="org.gnome.Console.desktop" score="3864.09375" last-seen="1721804343"/>
     <application id="xdg-desktop-portal-gnome.desktop" score="0" last-seen="1721409991"/>
     <application id="org.wezfurlong.wezterm.desktop" score="6" last-seen="1721719295"/>
   </context>

@@ -32,6 +32,10 @@ return require('packer').startup(function(use)
 	-- Theme
     use('rebelot/kanagawa.nvim')
     -- Undo Tree
+    use {
+        'nvim-lualine/lualine.nvim',
+        requires = { 'nvim-tree/nvim-web-devicons', opt = true }
+    }
     use('mbbill/undotree')
     use('github/copilot.vim')
     use('folke/trouble.nvim')
