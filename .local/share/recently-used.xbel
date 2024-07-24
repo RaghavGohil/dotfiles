@@ -2,4 +2,533 @@
 <xbel version="1.0"
       xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
       xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
-></xbel>
+>
+  <bookmark href="file:///home/raghav/Downloads/2024-06-29%2011-27-09.mkv" added="2024-06-29T06:08:49.730984Z" modified="2024-06-29T06:08:49.730995Z" visited="2024-06-29T06:08:49.730985Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="video/x-matroska"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2024-06-29T06:08:49.730988Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/raghav/Downloads/kenney_roguelike-rpg-pack.zip" added="2024-07-01T08:40:21.199977Z" modified="2024-07-01T08:40:21.199994Z" visited="2024-07-01T08:40:21.199979Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2024-07-01T08:40:21.199985Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/raghav/Public/GithubProjects/mango/assets" added="2024-07-01T08:41:07.164418Z" modified="2024-07-01T08:41:07.164455Z" visited="2024-07-01T08:41:07.164422Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;org.gnome.Nautilus %u&apos;" modified="2024-07-01T08:41:07.164434Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/raghav/Public/GithubProjects/mango/assets/kenney_roguelike-rpg-pack/Sample1.png" added="2024-07-01T08:41:13.217482Z" modified="2024-07-01T08:41:13.486333Z" visited="2024-07-01T08:41:13.217485Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;loupe %U&apos;" modified="2024-07-01T08:41:13.217491Z" count="1"/>
+          <bookmark:application name="loupe" exec="&apos;loupe %u&apos;" modified="2024-07-01T08:41:13.486332Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/raghav/Public/GithubProjects/mango/assets/kenney_roguelike-rpg-pack/Spritesheet/roguelikeSheet_magenta.png" added="2024-07-01T08:41:24.344867Z" modified="2024-07-01T08:41:24.344871Z" visited="2024-07-01T08:41:24.344867Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="loupe" exec="&apos;loupe %u&apos;" modified="2024-07-01T08:41:24.344869Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/raghav/Public/GithubProjects/mango/assets/kenney_roguelike-rpg-pack/Spritesheet/roguelikeSheet_transparent.png" added="2024-07-01T08:41:27.529960Z" modified="2024-07-01T08:41:27.529965Z" visited="2024-07-01T08:41:27.529961Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="loupe" exec="&apos;loupe %u&apos;" modified="2024-07-01T08:41:27.529963Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/raghav/Public/GithubProjects/mango/assets/characters/go_gopher.png" added="2024-07-02T06:01:42.492547Z" modified="2024-07-04T09:57:05.523759Z" visited="2024-07-02T06:01:42.492554Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2024-07-04T09:57:05.523754Z" count="3"/>
+          <bookmark:application name="loupe" exec="&apos;loupe %u&apos;" modified="2024-07-04T09:56:08.016238Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/raghav/Public/GithubProjects/mango/assets/maps/Sample1.png" added="2024-07-02T11:23:20.227056Z" modified="2024-07-02T11:23:20.227060Z" visited="2024-07-02T11:23:20.227057Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="loupe" exec="&apos;loupe %u&apos;" modified="2024-07-02T11:23:20.227058Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/raghav/Public/GithubProjects/mango/assets/maps/Preview.png" added="2024-07-02T11:23:27.572769Z" modified="2024-07-02T11:23:27.844576Z" visited="2024-07-02T11:23:27.572771Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;loupe %U&apos;" modified="2024-07-02T11:23:27.572777Z" count="1"/>
+          <bookmark:application name="loupe" exec="&apos;loupe %u&apos;" modified="2024-07-02T11:23:27.844574Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/raghav/Public/GithubProjects/mango/assets/maps/map1.tiled-project" added="2024-07-03T06:43:59.765337Z" modified="2024-07-03T06:43:59.765346Z" visited="2024-07-03T06:43:59.765338Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="tiled" exec="&apos;tiled %u&apos;" modified="2024-07-03T06:43:59.765341Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/raghav/Public/GithubProjects/mango/assets/maps/Spritesheet/roguelikeSheet_transparent.png" added="2024-07-03T09:49:15.933036Z" modified="2024-07-03T09:49:15.933041Z" visited="2024-07-03T09:49:15.933037Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="loupe" exec="&apos;loupe %u&apos;" modified="2024-07-03T09:49:15.933038Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/raghav/Downloads/kenney_pixel-platformer-blocks.zip" added="2024-07-03T09:51:26.298284Z" modified="2024-07-03T09:51:26.298294Z" visited="2024-07-03T09:51:26.298286Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2024-07-03T09:51:26.298290Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/raghav/Public/GithubProjects/mango/assets/maps/Tiles/Marble/tile_0000.png" added="2024-07-03T09:52:23.534696Z" modified="2024-07-03T09:52:23.534699Z" visited="2024-07-03T09:52:23.534697Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="loupe" exec="&apos;loupe %u&apos;" modified="2024-07-03T09:52:23.534698Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/raghav/Public/GithubProjects/mango/assets/maps/Tilemap/marble.png" added="2024-07-03T09:52:30.809343Z" modified="2024-07-03T09:52:48.380618Z" visited="2024-07-03T09:52:30.809344Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="loupe" exec="&apos;loupe %u&apos;" modified="2024-07-03T09:52:48.380616Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/raghav/Public/GithubProjects/mango/assets/maps/Tilemap/stone.png" added="2024-07-03T09:52:34.038257Z" modified="2024-07-03T09:52:34.038260Z" visited="2024-07-03T09:52:34.038258Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="loupe" exec="&apos;loupe %u&apos;" modified="2024-07-03T09:52:34.038259Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/raghav/Public/GithubProjects/mango/assets/maps/Tilemap/sand_packed.png" added="2024-07-03T09:52:37.453331Z" modified="2024-07-03T09:52:37.453334Z" visited="2024-07-03T09:52:37.453331Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="loupe" exec="&apos;loupe %u&apos;" modified="2024-07-03T09:52:37.453332Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/raghav/Downloads/TilesNew-export.png" added="2024-07-03T10:00:20.545287Z" modified="2024-07-03T10:03:33.025801Z" visited="2024-07-03T10:00:20.545288Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2024-07-03T10:00:20.545290Z" count="1"/>
+          <bookmark:application name="loupe" exec="&apos;loupe %u&apos;" modified="2024-07-03T10:03:33.025800Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/raghav/Public/GithubProjects/mango/assets/maps/Map.png" added="2024-07-03T10:21:44.750368Z" modified="2024-07-08T13:06:24.243335Z" visited="2024-07-03T10:21:44.750369Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;loupe %U&apos;" modified="2024-07-03T10:21:44.750371Z" count="1"/>
+          <bookmark:application name="loupe" exec="&apos;loupe %u&apos;" modified="2024-07-08T13:05:01.280305Z" count="6"/>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2024-07-04T06:36:01.870810Z" count="1"/>
+          <bookmark:application name="tiled" exec="&apos;tiled %u&apos;" modified="2024-07-08T13:06:24.243332Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/raghav/.config/background" added="2024-07-04T03:59:49.173281Z" modified="2024-07-04T03:59:49.173284Z" visited="2024-07-04T03:59:49.173281Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="loupe" exec="&apos;loupe %u&apos;" modified="2024-07-04T03:59:49.173282Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/raghav/Downloads/sheet.png" added="2024-07-04T09:19:10.889271Z" modified="2024-07-04T09:19:10.889278Z" visited="2024-07-04T09:19:10.889272Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2024-07-04T09:19:10.889276Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/raghav/Public/GithubProjects/mango/assets/characters/sheet.png" added="2024-07-04T09:19:31.858282Z" modified="2024-07-04T09:19:31.858286Z" visited="2024-07-04T09:19:31.858283Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="loupe" exec="&apos;loupe %u&apos;" modified="2024-07-04T09:19:31.858284Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/raghav/Public/GithubProjects/mango/assets/characters/452-4529843_pokemon-dialog-box-pixel-art.png" added="2024-07-04T14:42:38.267064Z" modified="2024-07-04T14:42:49.264794Z" visited="2024-07-04T14:42:38.267069Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2024-07-04T14:42:49.264789Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/raghav/Downloads/452-4529843_pokemon-dialog-box-pixel-art.png" added="2024-07-04T14:51:32.709856Z" modified="2024-07-04T14:51:32.709883Z" visited="2024-07-04T14:51:32.709859Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2024-07-04T14:51:32.709866Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/raghav/Public/GithubProjects/mango/build" added="2024-07-05T07:43:27.105981Z" modified="2024-07-05T07:43:27.105986Z" visited="2024-07-05T07:43:27.105981Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;org.gnome.Nautilus %u&apos;" modified="2024-07-05T07:43:27.105983Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/raghav/Public/GithubProjects/mango/assets/characters/12-121739_dialog-box-monochrome.jpg" added="2024-07-07T06:48:17.203122Z" modified="2024-07-07T06:48:30.391972Z" visited="2024-07-07T06:48:17.203127Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2024-07-07T06:48:30.391967Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/raghav/Downloads/dialogue_box.png" added="2024-07-07T06:49:45.290609Z" modified="2024-07-07T06:49:45.290616Z" visited="2024-07-07T06:49:45.290610Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2024-07-07T06:49:45.290613Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/raghav/Pictures/Screenshots/Screenshot%20from%202024-07-07%2014-14-46.png" added="2024-07-07T08:14:46.360204Z" modified="2024-07-07T08:14:46.360206Z" visited="2024-07-07T08:14:46.360204Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gnome-shell" exec="&apos;gio open %u&apos;" modified="2024-07-07T08:14:46.360204Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/raghav/Pictures/Screenshots/Screenshot%20from%202024-07-07%2014-14-56.png" added="2024-07-07T08:14:56.018000Z" modified="2024-07-07T08:14:56.018002Z" visited="2024-07-07T08:14:56.018000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gnome-shell" exec="&apos;gio open %u&apos;" modified="2024-07-07T08:14:56.018001Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/raghav/Public/GithubProjects/mango/assets/characters/xChy58V.png" added="2024-07-08T06:26:15.515354Z" modified="2024-07-08T06:29:45.717536Z" visited="2024-07-08T06:26:15.515360Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2024-07-08T06:29:45.717531Z" count="4"/>
+          <bookmark:application name="loupe" exec="&apos;loupe %u&apos;" modified="2024-07-08T06:26:18.556089Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/raghav/Downloads/xChy58V.png" added="2024-07-08T06:27:52.242393Z" modified="2024-07-08T06:27:54.509985Z" visited="2024-07-08T06:27:52.242394Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2024-07-08T06:27:52.242395Z" count="1"/>
+          <bookmark:application name="loupe" exec="&apos;loupe %u&apos;" modified="2024-07-08T06:27:54.509984Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/raghav/Downloads/xChy58V(1).png" added="2024-07-08T06:30:26.672208Z" modified="2024-07-19T18:13:33.050427Z" visited="2024-07-08T06:30:26.672210Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2024-07-19T18:13:33.050423Z" count="2"/>
+          <bookmark:application name="loupe" exec="&apos;loupe %u&apos;" modified="2024-07-08T06:30:28.101807Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/raghav/Documents/obsidian" added="2024-07-08T09:31:39.804799Z" modified="2024-07-08T09:32:02.107250Z" visited="2024-07-08T09:31:39.804800Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;org.gnome.Nautilus %u&apos;" modified="2024-07-08T09:31:39.804802Z" count="1"/>
+          <bookmark:application name="md.obsidian.Obsidian" exec="&apos;gio open %u&apos;" modified="2024-07-08T09:32:02.083634Z" count="2"/>
+          <bookmark:application name="xdg-desktop-portal-gnome" exec="&apos;xdg-desktop-portal-gnome %u&apos;" modified="2024-07-08T09:32:02.107246Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/raghav/Public/GithubProjects/mango/assets/maps/tiled_projects/map1.tiled-project" added="2024-07-08T13:04:09.470363Z" modified="2024-07-08T13:04:09.470386Z" visited="2024-07-08T13:04:09.470365Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="tiled" exec="&apos;tiled %u&apos;" modified="2024-07-08T13:04:09.470373Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/raghav/Public/GithubProjects/mango/assets/maps/tiled_projects/map1.tsx" added="2024-07-08T13:06:48.872123Z" modified="2024-07-08T13:06:48.872149Z" visited="2024-07-08T13:06:48.872126Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-tiled-tsx"/>
+        <bookmark:applications>
+          <bookmark:application name="tiled" exec="&apos;tiled %u&apos;" modified="2024-07-08T13:06:48.872135Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/raghav/Public/GithubProjects/mango/assets/maps/map1.tmx" added="2024-07-08T13:11:54.619886Z" modified="2024-07-09T11:25:58.023043Z" visited="2024-07-08T13:11:54.619888Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-tiled-tmx"/>
+        <bookmark:applications>
+          <bookmark:application name="tiled" exec="&apos;tiled %u&apos;" modified="2024-07-09T11:25:58.023034Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/raghav/Downloads/healthbar.png" added="2024-07-09T05:42:40.945060Z" modified="2024-07-09T05:42:40.945071Z" visited="2024-07-09T05:42:40.945061Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2024-07-09T05:42:40.945066Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/raghav/Public/GithubProjects/mango/assets/characters/71706645.png" added="2024-07-09T17:40:15.629095Z" modified="2024-07-09T17:40:23.286545Z" visited="2024-07-09T17:40:15.629101Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2024-07-09T17:40:15.980630Z" count="2"/>
+          <bookmark:application name="org.gnome.Settings" exec="&apos;gio open %u&apos;" modified="2024-07-09T17:40:23.258066Z" count="1"/>
+          <bookmark:application name="xdg-desktop-portal-gnome" exec="&apos;xdg-desktop-portal-gnome %u&apos;" modified="2024-07-09T17:40:23.286534Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/raghav/Downloads/Raghav_Gohil_2026_AIML_60017220015.docx-1.pdf" added="2024-07-10T09:37:07.615317Z" modified="2024-07-10T09:37:07.615336Z" visited="2024-07-10T09:37:07.615321Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2024-07-10T09:37:07.615324Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/raghav/Downloads/Raghav_Resume.pdf" added="2024-07-10T09:38:39.451436Z" modified="2024-07-10T10:02:21.194710Z" visited="2024-07-10T09:38:39.451437Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2024-07-10T10:02:21.194702Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/raghav/Pictures/Screenshots/Screenshot%20from%202024-07-12%2022-20-20.png" added="2024-07-12T16:20:20.659998Z" modified="2024-07-12T16:20:20.660001Z" visited="2024-07-12T16:20:20.659999Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gnome-shell" exec="&apos;gio open %u&apos;" modified="2024-07-12T16:20:20.659999Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/raghav/Pictures/Screenshots/Screenshot%20from%202024-07-13%2022-39-48.png" added="2024-07-13T16:39:48.935293Z" modified="2024-07-13T16:39:48.935297Z" visited="2024-07-13T16:39:48.935294Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gnome-shell" exec="&apos;gio open %u&apos;" modified="2024-07-13T16:39:48.935294Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/raghav/Downloads/kali-linux-2024.2-vmware-amd64.7z" added="2024-07-15T06:50:35.860929Z" modified="2024-07-15T06:50:35.860978Z" visited="2024-07-15T06:50:35.860932Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-7z-compressed"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2024-07-15T06:50:35.860944Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/raghav/Downloads/kali-linux-2024.2-vmware-amd64.vmwarevm/kali-linux-2024.2-vmware-amd64.vmx" added="2024-07-15T07:09:39.420611Z" modified="2024-07-15T07:09:39.420615Z" visited="2024-07-15T07:09:39.420612Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-vmware-vm"/>
+        <bookmark:applications>
+          <bookmark:application name="vmware" exec="&apos;vmware %u&apos;" modified="2024-07-15T07:09:39.420613Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/raghav/Downloads/kali-linux-2024.2-live-amd64.iso" added="2024-07-15T07:28:50.652102Z" modified="2024-07-15T07:28:50.652129Z" visited="2024-07-15T07:28:50.652106Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.efi.iso"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2024-07-15T07:28:50.652119Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/raghav/Public/GithubProjects/taiwan-house/client" added="2024-07-18T16:59:37.658157Z" modified="2024-07-18T16:59:37.658189Z" visited="2024-07-18T16:59:37.658160Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;org.gnome.Nautilus %u&apos;" modified="2024-07-18T16:59:37.658169Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/raghav/Public/GithubProjects/taiwan-house/server" added="2024-07-18T17:00:17.697013Z" modified="2024-07-18T17:00:17.697058Z" visited="2024-07-18T17:00:17.697017Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;org.gnome.Nautilus %u&apos;" modified="2024-07-18T17:00:17.697025Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/raghav/Pictures/Screenshots/Screenshot%20from%202024-07-19%2023-30-15.png" added="2024-07-19T17:30:15.794552Z" modified="2024-07-19T17:30:15.794556Z" visited="2024-07-19T17:30:15.794553Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gnome-shell" exec="&apos;gio open %u&apos;" modified="2024-07-19T17:30:15.794553Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/raghav/Downloads/linkedinbanner.png" added="2024-07-19T18:13:10.864209Z" modified="2024-07-19T18:13:10.864220Z" visited="2024-07-19T18:13:10.864210Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2024-07-19T18:13:10.864215Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/raghav/Downloads/linux.7z" added="2024-07-23T06:49:37.469395Z" modified="2024-07-23T06:49:37.469404Z" visited="2024-07-23T06:49:37.469396Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-7z-compressed"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2024-07-23T06:49:37.469399Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/raghav/Pictures/Screenshots/Screenshot%20from%202024-07-23%2013-42-24.png" added="2024-07-23T07:42:24.102017Z" modified="2024-07-23T07:42:31.617909Z" visited="2024-07-23T07:42:24.102017Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="gnome-shell" exec="&apos;gio open %u&apos;" modified="2024-07-23T07:42:24.102018Z" count="1"/>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2024-07-23T07:42:31.617892Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/raghav/Pictures/Screenshots/Screenshot%20from%202024-07-23%2013-44-59.png" added="2024-07-23T07:44:59.307381Z" modified="2024-07-23T07:44:59.307386Z" visited="2024-07-23T07:44:59.307382Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gnome-shell" exec="&apos;gio open %u&apos;" modified="2024-07-23T07:44:59.307382Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/raghav/Pictures/Screenshots/Screenshot%20from%202024-07-23%2013-50-53.png" added="2024-07-23T07:50:53.489853Z" modified="2024-07-23T07:50:53.489857Z" visited="2024-07-23T07:50:53.489854Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gnome-shell" exec="&apos;gio open %u&apos;" modified="2024-07-23T07:50:53.489854Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>
