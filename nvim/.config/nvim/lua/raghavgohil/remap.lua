@@ -36,7 +36,7 @@ vim.keymap.set("n", "<C-j>", "<cmd>cprev<CR>zz")
 vim.keymap.set("n", "<leader>s", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]]) -- powerful search
 
 vim.keymap.set("n", "<leader><leader>", function() vim.cmd("so") end) -- source file.
-vim.keymap.set("n", "<leader>sy", function() vim.cmd("so") vim.cmd("PackerSync") end) -- source file.
+vim.keymap.set("n", "<leader>sy", function() vim.cmd("so") vim.cmd("PackerSync") end) -- source file and packer sync.
 
 --vim.keymap.set("n", "<leader>x", "<cmd>!chmod +x %<CR>", { silent = true })
 --vim.keymap.set("n", "<leader>vpp", "<cmd>e ~/.dotfiles/nvim/.config/nvim/lua/theprimeagen/packer.lua<CR>");

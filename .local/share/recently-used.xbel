@@ -531,4 +531,14 @@
       </metadata>
     </info>
   </bookmark>
+  <bookmark href="file:///home/raghav/Downloads/profile-pic.png" added="2024-07-24T07:10:00.250244Z" modified="2024-07-24T07:10:00.250257Z" visited="2024-07-24T07:10:00.250246Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2024-07-24T07:10:00.250249Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
 </xbel>

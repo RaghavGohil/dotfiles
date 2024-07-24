@@ -5,7 +5,7 @@ Input/Audio/Internal:media.name:Bluetooth\sinternal\scapture\sstream\sfor\sBoult
 Input/Audio:application.name:Firefox={"channelVolumes":[1.000000], "volume":1.000000, "channelMap":["MONO"], "mute":false}
 Output/Audio:application.name:FMOD={"channelVolumes":[1.000000, 1.000000], "volume":1.000000, "channelMap":["FL", "FR"], "mute":false}
 Output/Audio:application.name:FMOD\sEx\sApp={"channelVolumes":[1.000000, 1.000000], "volume":1.000000, "channelMap":["FL", "FR"], "mute":false}
-Output/Audio:application.name:Firefox={"channelMap":["FL", "FR"], "channelVolumes":[1.000000, 1.000000], "volume":1.000000, "mute":false}
+Output/Audio:application.name:Firefox={"channelMap":["FL", "FR"], "channelVolumes":[0.399992, 0.399992], "volume":1.000000, "mute":false}
 Output/Audio:application.name:PipeWire\sALSA\s\ovmware-vmx\c={"mute":false, "channelVolumes":[1.000000, 1.000000], "volume":1.000000, "channelMap":["FL", "FR"]}
 Output/Audio:application.name:Test\sstream={"volume":1.000000, "mute":false, "channelMap":[], "channelVolumes":[1.000000, 1.000000]}
 Output/Audio:application.name:lmms.bin={"volume":1.000000, "mute":false, "channelMap":["FL", "FR"], "channelVolumes":[1.000000, 1.000000]}
