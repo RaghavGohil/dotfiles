@@ -1,12 +1,3 @@
-#   ______  ___  _____  _   _   ___  _   _ 
-#   | ___ \/ _ \|  __ \| | | | / _ \| | | |
-#   | |_/ / /_\ \ |  \/| |_| |/ /_\ \ | | |
-#   |    /|  _  | | __ |  _  ||  _  | | | |
-#   | |\ \| | | | |_\ \| | | || | | \ \_/ /
-#   \_| \_\_| |_/\____/\_| |_/\_| |_/\___/ 
-                                       
-                                       
-
 # Enable colors and change prompt:
 autoload -U colors && colors
 PS1="%B%{$fg[red]%}[%{$fg[yellow]%}%n%{$fg[green]%}@%{$fg[blue]%}%M %{$fg[magenta]%}%~%{$fg[red]%}]%{$reset_color%}$%b "
@@ -122,12 +113,21 @@ get_cookies() {
 }
 
 gdown () {
-        agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/12$(head /dev/urandom | tr -dc '0-1' | cut -c1).0.0.0 Safari/537.36"
+        agent="Mozilla/5.0 (X11; Linux x86_64; rv:129.0) Gecko/20100101 Firefox/129.0"
         uuid=$(curl -sL "$1" -A "$agent" | sed -nE 's|.*(uuid=[^"]*)".*|\1|p')
-        aria2c -x16 -s16 "$1&confirm=t&$uuid" -U "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" --summary-interval=0 -d "${2:-.}"
+        aria2c -x16 -s16 "$1&confirm=t&$uuid" -U "$agent" --summary-interval=0 -d "${2:-.}"
 }
 
 # gdown "<drive_link>"  "<to_specified_directory>"
+
+hb () {
+    uri="http://bin.christitus.com/documents"
+    content=$(cat $1)
+    response=$(curl -X POST -d "$content" -w "%{http_code}\n" -s "$uri")
+    hasteKey=$(echo $response | jq .key | sed 's/"//g')
+    url="http://bin.christitus.com/$hasteKey"
+    printf "%s\n" "$url"
+}
 
 # Edit line in vim with ctrl-e:
 autoload edit-command-line; zle -N edit-command-line
@@ -135,12 +135,23 @@ bindkey '^e' edit-command-line
 
 plugins_dir="/usr/share/zsh/plugins"
 
-export PATH="$PATH:$HOME/.local/bin"
-
-source "$plugins_dir/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh"
-source "$HOME/.config/shell/aliasrc"
+#source "$HOME/.config/shell/profile"
+#source "$plugins_dir/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh"
+#source "$plugins_dir/fzf-tab/fzf-tab.plugin.zsh"
+#source "$HOME/.config/shell/aliasrc"
 
 eval "$(zoxide init zsh)"
 
+if [ "$TERM" = "linux" ] ; then
+        echo ""
+else
+    if [ -z "$(cat /etc/os-release | grep -o "Fedora" | head -n1)" ]; then
+        source "$plugins_dir/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh"
+        source "$plugins_dir/fzf-tab/fzf-tab.plugin.zsh"
+        source "$HOME/.config/shell/aliasrc"
+        source "$HOME/.config/shell/profile" 
+        eval "$(starship init zsh)"
+    fi
+fi
+
 #figlet "$(date '+ %I:%M %p')" | lolcat
-greet

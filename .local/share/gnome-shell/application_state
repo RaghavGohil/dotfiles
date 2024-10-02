@@ -1,10 +1,8 @@
 <?xml version="1.0"?>
 <application-state>
   <context id="">
-    <application id="org.gnome.Nautilus.desktop" score="24.5" last-seen="1721719297"/>
-    <application id="firefox.desktop" score="20925.96875" last-seen="1721814116"/>
-    <application id="org.gnome.Console.desktop" score="4898.09375" last-seen="1721814400"/>
-    <application id="xdg-desktop-portal-gnome.desktop" score="0" last-seen="1721409991"/>
-    <application id="org.wezfurlong.wezterm.desktop" score="6" last-seen="1721719295"/>
+    <application id="brave-browser.desktop" score="131" last-seen="1727848463"/>
+    <application id="org.gnome.Console.desktop" score="4947.09375" last-seen="1727848465"/>
+    <application id="org.gnome.TextEditor.desktop" score="1" last-seen="1727848471"/>
   </context>
 </application-state>

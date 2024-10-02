@@ -1,0 +1,91 @@
+configuration {
+    // Timeout from user input.
+    timeout {
+        delay: 0;
+        action: "kb-cancel";
+    }
+
+    // File browser mode.
+    filebrowser {
+        sorting-method: "name";
+        directories-first: true;
+    }
+}
+
+@theme "custom"
+
+* {
+    // Define your custom color scheme
+    background-color: #1e1e2e;     /* Dark background */
+    border-color: #44475a;         /* Border color */
+    text-color: #ffffff;           /* Default text color */
+    selected-bg-color: #6272a4;    /* Selected item background */
+    selected-text-color: #ffffff;  /* Selected item text color */
+    hover-bg-color: #50fa7b;       /* Hover effect background */
+    hover-text-color: #282a36;     /* Hover effect text color */
+    scrollbar-handle-color: #44475a; /* Scrollbar handle */
+    accent-color: #ff79c6;         /* Accent color for certain elements */
+}
+
+window {
+    background-color: @background-color;
+    border-radius: 10px;
+    border: 2px solid @border-color;
+    padding: 10px;
+}
+
+inputbar {
+    background-color: @background-color;
+    border: 2px solid @accent-color;
+    border-radius: 5px;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+entry {
+    placeholder: "Search here...";
+    placeholder-color: #8be9fd; /* Placeholder text color */
+    text-color: @text-color;
+    font: "JetBrainsMono Bold 12";
+    border: none;
+    background-color: transparent;
+}
+
+listview {
+    background-color: @background-color;
+    text-color: @text-color;
+    border: 0;
+    spacing: 5px;
+}
+
+element {
+    background-color: @background-color;
+    text-color: @text-color;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+element selected {
+    background-color: @selected-bg-color;
+    text-color: @selected-text-color;
+}
+
+element:hover {
+    background-color: @hover-bg-color;
+    text-color: @hover-text-color;
+}
+
+scrollbar {
+    handle-color: @scrollbar-handle-color;
+    handle-width: 8px;
+    width: 4px;
+    border-radius: 2px;
+}
+
+case-indicator {
+    background-color: @accent-color;
+    text-color: @text-color;
+    padding: 5px;
+    border-radius: 3px;
+}
+
