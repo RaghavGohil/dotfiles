@@ -1,0 +1,14 @@
+#!/bin/sh
+
+x="Screenshot copied to clipboard"
+name="shot_$(date '+%y%m%d_%H-%M-%S')"
+
+hyprpicker -r -z &
+sleep 0.1
+
+[ "$*" = "fullsave" ] && grim $HOME/Pictures/ss/$name.png && wl-copy < $HOME/Pictures/ss/$name.png && notify-send -i $HOME/Pictures/ss/$name.png "Screenshot saved" "$HOME/Pictures/ss/$name.png"
+
+[ "$*" = "selclip" ] && grim -g "$(slurp)" - | swappy -f -
+
+killall hyprpicker
+#notify-send "$x"
