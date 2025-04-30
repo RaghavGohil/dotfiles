@@ -1,0 +1,4 @@
+# Ignore everything under local
+.local/*
+# Keep the bin dir 
+!.local/bin/
