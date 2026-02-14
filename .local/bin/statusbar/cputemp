@@ -1,3 +1,0 @@
-#!/bin/sh
-
-printf "%s\n" "🥵 $(sensors | awk '/^temp1/ {print $2}')"
