@@ -27,7 +27,7 @@ vim.keymap.set("n", "<leader>rw", [[:%s/\<<C-r><C-w>\>//gI<Left><Left><Left>]])
 
 vim.keymap.set("n", "<leader>x", "gg0vG$")           -- yank the current line to buffer.
 
-vim.keymap.set("n", "<leader>b", "<cmd>!!<CR")       -- run the last command.
+vim.keymap.set("n", "<leader>b", "<cmd>!!<CR>")       -- run the last command.
 
 vim.keymap.set("n", "<leader>vs", "<cmd>vs<CR><C-w>l")       -- vertical split.
 vim.keymap.set("n", "<leader>hs", "<cmd>sp<CR><C-w>j")       -- horizontal split.
