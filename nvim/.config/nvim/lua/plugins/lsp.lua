@@ -1,6 +1,8 @@
 return {
 
-    -- Mason (LSP/DAP/Linters/Formatters manager)
+    ---------------------------------------------------------------------
+    -- MASON
+    ---------------------------------------------------------------------
     {
         "williamboman/mason.nvim",
         build = ":MasonUpdate",
@@ -9,70 +11,102 @@ return {
         end,
     },
 
-    -- Mason + LSP config
     {
         "williamboman/mason-lspconfig.nvim",
         dependencies = { "mason.nvim" },
         config = function()
             require("mason-lspconfig").setup({
-                ensure_installed = { "pyright", "lua_ls" },
+                ensure_installed = {
+                    "pyright",
+                    "lua_ls",
+                    "clangd",
+                    "ruff",
+                },
                 automatic_installation = false,
             })
         end,
     },
 
-    -- Core LSP setup
+    ---------------------------------------------------------------------
+    -- FORMATTER (Ruff via Conform)
+    ---------------------------------------------------------------------
+    {
+        "stevearc/conform.nvim",
+        event = { "BufReadPre", "BufNewFile" },
+        config = function()
+            require("conform").setup({
+                formatters_by_ft = {
+                    python = { "ruff_format" },
+                    lua = { "stylua" },
+                    c = { "clang_format" },
+                    cpp = { "clang_format" },
+                },
+
+                format_on_save = function(bufnr)
+                    if vim.bo[bufnr].filetype == "python" then
+                        return { timeout_ms = 500 }
+                    end
+                end,
+            })
+
+            vim.keymap.set("n", "<leader>f", function()
+                require("conform").format({ async = true })
+            end, { desc = "Format buffer" })
+        end,
+    },
+
+    ---------------------------------------------------------------------
+    -- LSP (NEW API)
+    ---------------------------------------------------------------------
     {
         "neovim/nvim-lspconfig",
         dependencies = { "cmp-nvim-lsp" },
         config = function()
-            local capabilities = require("cmp_nvim_lsp").default_capabilities()
+            local capabilities =
+                require("cmp_nvim_lsp").default_capabilities()
 
-            -- LSP keymaps
-            local on_attach = function(_, bufnr)
-                local opts = { noremap = true, silent = true, buffer = bufnr }
-                local keymap = vim.keymap.set
+            local on_attach = function(client, bufnr)
+                -- Disable formatting from LSPs
+                client.server_capabilities.documentFormattingProvider = false
+                client.server_capabilities.documentRangeFormattingProvider = false
 
-                keymap("n", "K", vim.lsp.buf.hover, opts)
-                keymap("n", "gd", vim.lsp.buf.definition, opts)
-                keymap("n", "gD", vim.lsp.buf.declaration, opts)
-                keymap("n", "gi", vim.lsp.buf.implementation, opts)
-                keymap("n", "go", vim.lsp.buf.type_definition, opts)
-                keymap("n", "gr", vim.lsp.buf.references, opts)
-                keymap("n", "<leader>rn", vim.lsp.buf.rename, opts)
-                keymap("n", "<leader>ca", vim.lsp.buf.code_action, opts)
-                keymap("n", "<leader>f", function()
-                    vim.lsp.buf.format({ async = true })
-                end, opts)
+                local map = vim.keymap.set
+                local opts = { buffer = bufnr }
 
-                -- keymap("n", "[d", vim.diagnostic.goto_prev, opts)
-                -- keymap("n", "]d", vim.diagnostic.goto_next, opts)
-                keymap("n", "<leader>e", vim.diagnostic.open_float, opts)
+                map("n", "K", vim.lsp.buf.hover, opts)
+                map("n", "gd", vim.lsp.buf.definition, opts)
+                map("n", "gD", vim.lsp.buf.declaration, opts)
+                map("n", "gi", vim.lsp.buf.implementation, opts)
+                map("n", "gr", vim.lsp.buf.references, opts)
+                map("n", "<leader>rn", vim.lsp.buf.rename, opts)
+                map("n", "<leader>ca", vim.lsp.buf.code_action, opts)
+                map("n", "<leader>e", vim.diagnostic.open_float, opts)
             end
 
-            -- 🔹 PYRIGHT (Python)
+            -- PYRIGHT (types only)
             vim.lsp.config.pyright = {
                 capabilities = capabilities,
                 on_attach = on_attach,
                 root_dir = vim.fs.root(0, {
                     "pyproject.toml",
                     "setup.py",
-                    "setup.cfg",
                     "requirements.txt",
                     ".git",
                 }),
-                settings = {
-                    python = {
-                        analysis = {
-                            autoSearchPaths = true,
-                            diagnosticMode = "workspace",
-                            useLibraryCodeForTypes = true,
-                        },
+            }
+
+            -- RUFF (linting + fixes)
+            vim.lsp.config.ruff = {
+                capabilities = capabilities,
+                on_attach = on_attach,
+                init_options = {
+                    settings = {
+                        args = {},
                     },
                 },
             }
 
-            -- 🔹 LUA LS
+            -- LUA
             vim.lsp.config.lua_ls = {
                 capabilities = capabilities,
                 on_attach = on_attach,
@@ -93,13 +127,31 @@ return {
                 },
             }
 
-            -- 🔹 ENABLE SERVERS
-            vim.lsp.enable({ "pyright", "lua_ls" })
+            -- C / C++
+            vim.lsp.config.clangd = {
+                capabilities = capabilities,
+                on_attach = on_attach,
+                cmd = {
+                    "clangd",
+                    "--background-index",
+                    "--clang-tidy",
+                    "--completion-style=detailed",
+                },
+            }
+
+            -- ENABLE SERVERS
+            vim.lsp.enable({
+                "pyright",
+                "ruff",
+                "lua_ls",
+                "clangd",
+            })
         end,
     },
 
-
-    -- Autocompletion setup
+    ---------------------------------------------------------------------
+    -- AUTOCOMPLETION
+    ---------------------------------------------------------------------
     {
         "hrsh7th/nvim-cmp",
         dependencies = {
@@ -141,12 +193,12 @@ return {
                         end
                     end, { "i", "s" }),
                 }),
-                sources = cmp.config.sources({
+                sources = {
                     { name = "nvim_lsp" },
                     { name = "luasnip" },
                     { name = "buffer" },
                     { name = "path" },
-                }),
+                },
             })
         end,
     },

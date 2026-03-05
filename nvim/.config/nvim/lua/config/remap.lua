@@ -37,5 +37,7 @@ vim.keymap.set("n", "<leader>-", "<cmd>wincmd -<CR>", { silent = true }) -- decr
 vim.keymap.set("n", "<leader>,", "<cmd>wincmd ><CR>", { silent = true }) -- increase width
 vim.keymap.set("n", "<leader>.", "<cmd>wincmd <<CR>", { silent = true }) -- decrease width
 
+vim.keymap.set("n", "<leader>m", "<cmd>w<CR>")       -- easy write.
+
 vim.keymap.set("n", "<leader>q", "<cmd>q<CR>")       -- easy quit.
 vim.keymap.set("n", "<leader>Q", "<cmd>q!<CR>")       -- easy quit ultra pro max.
